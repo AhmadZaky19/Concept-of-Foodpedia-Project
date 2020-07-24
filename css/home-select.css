@@ -1,0 +1,146 @@
+body {
+    margin: 0px;
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    border-bottom: 1px gray solid;
+  }
+  
+  .navbar-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    width: 5%;
+    text-align: center;
+  }
+  
+  .menu img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .title {
+    width: 60%;
+    text-align: center;
+  }
+  
+  .cart a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .search {
+    width: 5%;
+  }
+  
+  .search img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cart {
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid lightgrey;
+  }
+
+  .cart a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .badge {
+    background-color: lightblue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  .content-items {
+    width: 100%;
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 5%;
+    text-align: center;
+  }
+  
+  .sidebar img {
+    width: 35px;
+    height: 35px;
+    padding-top: 25px;
+  }
+  
+  .list-menu {
+    width: 65%;
+  }
+  
+  .cart-list {
+    width: 30%;
+    margin-top: 80px;
+  }
+  
+  .list-menu {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    width: 33%;
+    margin-top: 20px;
+    text-align: center;
+  
+  }
+  
+  .card img {
+    height: 180px;
+    width: 220px;
+    border: 1px black hidden;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 2px;
+  }
+  
+  .card h3 {
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 35px;
+  }
+  
+  .list-cart {
+    width: 30%;
+    margin-top: 80px;
+    border: 1px hidden lightgrey;
+  }
+  
+  .card-cart {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card-cart img {
+    width: 30%;
+  }
+  
+  .card-cart h3 {
+    margin-top: -20px;
+  }
+  
+  .card-cart p {
+    color: #cecece;
+    margin-top: -15px;
+  }
+  
