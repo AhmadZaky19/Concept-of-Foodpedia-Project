@@ -98,7 +98,6 @@ body {
   width: 33%;
   margin-top: 20px;
   text-align: center;
-
 }
 
 .card img {
@@ -120,7 +119,7 @@ body {
   margin-left: 35px;
 }
 
-.list-cart {
+.cart-list {
   width: 30%;
   margin-top: 80px;
   border: 1px hidden lightgrey;
@@ -142,4 +141,36 @@ body {
 .card-cart p {
   color: #cecece;
   margin-top: -15px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    width: 15%;
+    text-align: center;
+  }
+
+  .title {
+    width: 45%;
+    text-align: center;
+  }
+
+  .search {
+    width: 10%;
+  }
+  .card {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .sidebar {
+    width: 15%;
+    text-align: center;
+  }
+  
+  .sidebar img {
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+  }
 }
