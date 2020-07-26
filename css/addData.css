@@ -1,0 +1,273 @@
+body {
+    margin: 0px;
+    height: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar {
+    border-bottom: 1px gray solid;
+  }
+  
+  .navbar-items {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    width: 5%;
+    text-align: center;
+  }
+  
+  .menu img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .title {
+    width: 60%;
+    text-align: center;
+  }
+  
+  .title a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .search {
+    width: 5%;
+  }
+  
+  .search img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cart {
+    width: 30%;
+    text-align: center;
+    border-left: 1px solid lightgrey;
+  }
+  
+  .cart a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .badge {
+    background-color: lightblue;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: white;
+  }
+  
+  .content-items {
+    width: 100%;
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 5%;
+    text-align: center;
+  }
+  
+  .sidebar img {
+    width: 35px;
+    height: 35px;
+    padding-top: 25px;
+  }
+  
+  .list-menu {
+    width: 65%;
+  }
+  
+  .cart-list {
+    width: 30%;
+    margin-top: 80px;
+  }
+  
+  .list-menu {
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    width: 33%;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .card img {
+    height: 180px;
+    width: 220px;
+    border: 1px black hidden;
+    border-radius: 10px;
+  }
+  
+  .card p {
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 2px;
+  }
+  
+  .card h3 {
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 35px;
+  }
+  
+  .cart-list {
+    width: 30%;
+    margin-top: 80px;
+    border: 1px hidden lightgrey;
+  }
+  
+  .card-cart {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .card-cart img {
+    width: 30%;
+  }
+  
+  .card-cart h3 {
+    margin-top: -20px;
+  }
+  
+  .card-cart p {
+    color: #cecece;
+    margin-top: -15px;
+  }
+  
+  .black {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+  }
+
+  .popup {
+    position: fixed;
+    top: 10%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    height: 80%;
+    width: 40%;
+    background-color: white;
+    align-content: stretch;
+    border: 1px hidden black;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  #name {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 1px;
+    color: lightgrey;
+  }
+
+  #image {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 30px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 1px;
+    color: lightgrey;
+  }
+
+  #price {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 39px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 1px;
+    color: lightgrey;
+  }
+
+  #category {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px 1px;
+    color: lightgrey;
+  }
+
+  .addItem {
+    padding-top: 90px;
+    padding-left: 300px;
+  }
+
+  .addItem button {
+      margin-right: 10px;
+      font-size: larger;
+      font-weight: bolder;
+      border: 1px hidden black;
+      border-radius: 10px;
+  }
+
+  #cancel {
+      background-color: rgba(218, 112, 144, 0.966);
+      color: white;
+      padding: 10px 20px;
+  }
+
+  #add {
+      background-color: rgba(63, 192, 186, 0.966);
+      color: white;
+      padding: 10px 20px;
+  }
+
+  @media (max-width: 768px) {
+    .menu {
+      width: 15%;
+      text-align: center;
+    }
+  
+    .title {
+      width: 45%;
+      text-align: center;
+    }
+  
+    .search {
+      width: 10%;
+    }
+    .card {
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .sidebar {
+      width: 15%;
+      text-align: center;
+    }
+    
+    .sidebar img {
+      width: 50px;
+      height: 50px;
+      padding-top: 25px;
+    }
+  }
