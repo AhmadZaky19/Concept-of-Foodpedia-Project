@@ -181,9 +181,10 @@ body {
     width: 95%;
     background-color: royalblue;
     padding: 10px;
-    margin: 5px 5px 5px 5px;
+    margin: 350px 5px 5px 5px;
     color: white;
     font-weight: bold;
+    font-size: larger;
   }
 
   .checkout .nobuy button {
@@ -193,18 +194,57 @@ body {
     margin: 5px 5px 5px 5px;
     color: white;
     font-weight: bold;
+    font-size: larger;
   }
 
-  .item-menu-selected::after {
-    content:'';
-    display: inline-block;
-    width: 220px;
-    height: 180px;
-    margin-left: -220px;
-    background-color: rgb(0, 0, 0, 0.4) !important;
-    background: url(tick.png) no-repeat center;
-    background-size: 50px;
-    position: absolute;
+  .black {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+  }
+
+  .popup {
+    position: fixed;
+    top: 10%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    height: 80%;
+    width: 40%;
+    background-color: white;
+    align-content: stretch;
+    border: 1px hidden black;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .popup .print button {
+    width: 80%;
+    background-color: rgb(216, 18, 117);
+    padding: 10px;
+    margin: 30px 5px 0px 50px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    border: 1px hidden black;
+    border-radius: 10px;
+  }
+
+  .popup h4 {
+      margin: 5px 0px 5px 0px;
+
+  }
+  .popup .send button {
+    width: 80%;
+    background-color: royalblue;
+    padding: 10px;
+    margin: 0px 5px 5px 50px;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
     border: 1px hidden black;
     border-radius: 10px;
   }
