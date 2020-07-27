@@ -113,7 +113,7 @@ header {
 
 /* Chart css */
 .chart-container {
-    background: #FFFFFF;
+    background: white;
     box-shadow: 10px 10px 20px grey;
     border-radius: 10px;
     margin: 2% 0px;
