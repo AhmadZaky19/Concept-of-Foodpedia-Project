@@ -46,45 +46,6 @@ header {
     display: table-cell;
 }
 
-.search {
-    width: 10%;
-    height: 100%;
-    position: relative;
-}
-
-.search img {
-    height: 35%;
-    width: 35.35%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    object-fit: contain;
-}
-
-.cart {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    display: table;
-    text-align: center;
-}
-
-.cart h4 {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 25px;
-}
-
-.badge-info {
-    font-size: 20px;
-    width: 25px;
-    height: 25px;
-    background: lightblue;
-}
-
 .main-container {
     display: flex;
     width: 100vw;
@@ -128,6 +89,7 @@ header {
     padding-right: 2%;
 }
 
+/* Card css */
 .card {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -149,6 +111,7 @@ header {
     border-radius: 10px;
 }
 
+/* Chart css */
 .chart-container {
     background: #FFFFFF;
     box-shadow: 10px 10px 20px grey;
@@ -251,7 +214,7 @@ header {
 }
 
 .chart-value2 {
-    width: 22%;
+    width: 42%;
 }
 
 .chart-value3 {
@@ -318,9 +281,10 @@ header {
     margin-top: 1%;
 }
 
+/* bottom box css */
 .recent-order-container {
     background: white;
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 20px grey;
     border-radius: 10px;
     margin: 2% 0px;
     padding: 2% 3%;
